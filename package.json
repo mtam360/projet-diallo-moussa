@@ -1,0 +1,10 @@
+{
+  "name": "projet-diallo-moussa",
+  "description": "Depuis notre site node red nous allons allumer et eteindre un switch et voir le resultat dans notre base de donnee",
+  "dependencies": {
+    "node-red": "latest"
+  },
+  "scripts": {
+    "start": "node node_modules/node-red/red.js --userDir flows"
+  }
+}
